@@ -1,0 +1,33 @@
+minecraft:
+  serverIP: play.crystaldev.co
+  serverPort: 25565
+  version: 1.8.9
+  joinCommand: /sapphire
+
+settings:
+  prefix: "!"
+  maxDistance: 256 # Maximum trapdoor searching distance (in blocks)
+  useChat: true # Allow the bot to message you
+  joinDelay: 3 # Time in between alts joining (in seconds)
+  joinCommandDelay: 3 # Time in between an alt joining and executing the join command (in seconds)
+  hideErrors: false # Hide errors
+
+adjusters:
+# IGNs of adjusters (Whitelisted people)
+- GetDutched
+
+#     _______    _______    __   __    __   __    _______    __    _    ______     _______ 
+#   |       |  |       |  |  |_|  |  |  |_|  |  |   _   |  |  |  | |  |      |   |       |
+#   |       |  |   _   |  |       |  |       |  |  |_|  |  |   |_| |  |  _    |  |  _____|
+#   |       |  |  | |  |  |       |  |       |  |       |  |       |  | | |   |  | |_____ 
+#   |      _|  |  |_|  |  |       |  |       |  |       |  |  _    |  | |_|   |  |_____  |
+#   |     |_   |       |  | ||_|| |  | ||_|| |  |   _   |  | | |   |  |       |   _____| |
+#   |_______|  |_______|  |_|   |_|  |_|   |_|  |__| |__|  |_|  |__|  |______|   |_______|
+#
+#   ** COMMANDS ONLY WORK IN /MSG **    
+#
+#   - Tpa: prefix + tpa + ign (!tpa getdutched)
+#   - Adjust: prefix + adjust + y coordinate (!adjust 253)
+#   - Current: prefix + current (!current)
+#   - Sudo: prefix + sudo + command (!sudo tpyes)
+#
